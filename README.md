@@ -1,1 +1,1 @@
-# Einf-hrung-in-die-Programmierung-INFK-HS-26
+Einführung in die Programmierung – INFK – HS 25
