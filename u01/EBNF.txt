@@ -1,0 +1,26 @@
+1.
+
+<even-digit> <= 0 | 2 | 4 | 6 | 8
+<geradezahl> <= [+|-] <even-digit> {<even-digit>}
+
+2.
+
+In: 28
+
+28 = [+|-] <even-digit> {<even-digit>} | "Regel"
+28 = <even-digit> {<even-digit>} | "Option nicht wählen"
+28 = (0 | 2 | 4 | 6 | 8) {0 | 2 | 4 | 6 | 8} | "Enum aus expanden"
+28 = 28 | "Option auswählen"
+
+3.
+
+<x2ygemisch> <= {<x2ygemisch>}X{<x2ygemisch>}Y{<x2ygemisch>}Y{<x2ygemisch>}|{<x2ygemisch>}Y{<x2ygemisch>}Y{<x2ygemisch>}X{<x2ygemisch>}|{<x2ygemisch>}Y{<x2ygemisch>}X{<x2ygemisch>}Y{<x2ygemisch>}
+
+4.
+
+// Geht für bsp1 aber nicht für bsp2
+"B"
+
+5.
+
+<doppelt> <= X{<doppelt>}YY

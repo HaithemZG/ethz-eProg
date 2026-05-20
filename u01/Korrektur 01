@@ -1,0 +1,16 @@
+Korrektur u01
+
+2. Hello Programmer:    
+	Keine Abgabe
+
+4. EBNF:    
+	1. nicht ganz Korrekt, 36 wird nicht als <geradezahl> erkannt.
+    Du musst die ungeraden digits erlauben, ausser an der letzten Stelle.    
+	2. sehr gut    
+	3. fast Korrekt, die Y sollten nur als paar auftreten.
+    Wenn du die letzte "oder" option und die {<x2ygemischt>} zwishcen den Y weglässt ist es Korrekt.
+    Das leere Wort wird auch nicht erkannt.    
+	4. sehr gut    
+    5. nicht ganz Korrekt, XXYYXYYYY wird als legales Symbol erkannt.
+    Wenn du {} durch [] ersetzt geht das nicht mehr.
+    und wenn du die [] um das ganze machst wird auch noch das leere Wort erlaubt
